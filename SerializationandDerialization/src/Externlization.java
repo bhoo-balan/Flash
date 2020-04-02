@@ -44,7 +44,7 @@ public class Externlization implements Externalizable  {
 		FileInputStream fis=new FileInputStream("abc.txt");
 		ObjectInputStream ois=new ObjectInputStream(fis);
 		Externlization ex1=(Externlization) ois.readObject();
-		System.out.println(ex1.name +"  "+ex1.i + "    "+ex1.j);
+		System.out.println(ex1.name +" tet "+ex1.i + "    "+ex1.j);
 	}
 
 }
